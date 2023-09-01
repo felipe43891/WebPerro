@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Paseador de Perros</title>
+</head>
+<body>
+   
+    <h1>Tarifas de Paseador de Perros</h1>
+    <form action="/WebPerro/CalculadoraServlet" method="post">
+        <label for="perro-grande">Perro Grande:</label>
+        <input type="number" id="perro-grande" name="perro-grande" min="0" value="0">
+        <label for="perro-grande-horas">Horas:</label>
+        <input type="number" id="perro-grande-horas" name="perro-grande-horas" min="0" value="0"><br>
+
+        <label for="perro-mediano">Perro Mediano:</label>
+        <input type="number" id="perro-mediano" name="perro-mediano" min="0" value="0">
+        <label for="perro-mediano-horas">Horas:</label>
+        <input type="number" id="perro-mediano-horas" name="perro-mediano-horas" min="0" value="0"><br>
+
+        <label for="perro-pequeno">Perro Pequeño:</label>
+        <input type="number" id="perro-pequeno" name="perro-pequeno" min="0" value="0">
+        <label for="perro-pequeno-horas">Horas:</label>
+        <input type="number" id="perro-pequeno-horas" name="perro-pequeno-horas" min="0" value="0"><br>
+
+        <label for="descuento">Descuento:</label>
+        <input type="checkbox" id="descuento" name="descuento"><br>
+
+        <input type="submit" value="Calcular Total">
+    </form>
+</body>
+</html>
